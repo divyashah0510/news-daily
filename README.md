@@ -40,7 +40,8 @@ This is a simple web application that displays news articles from a database. Th
 
 ## Demo Video
 
-![Watch the demo video](./src/main/webapp/source/screens/demo.mp4)
+https://github.com/user-attachments/assets/fb30957c-90c0-43cb-b684-faaa127c7a2e
+
 
 ## License
 
