@@ -42,7 +42,6 @@ This is a simple web application that displays news articles from a database. Th
 
 https://github.com/user-attachments/assets/fb30957c-90c0-43cb-b684-faaa127c7a2e
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
