@@ -38,9 +38,9 @@ This is a simple web application that displays news articles from a database. Th
 ![Login Page](./src/main/webapp/source/screens/login.png)
 ![Register Page](./src/main/webapp/source/screens/register.png)
 
-## Live Demo
+## Demo Video
 
-The application is deployed on Heroku. You can view the application [here]().
+![Watch the demo video](./src/main/webapp/source/screens/demo.mp4)
 
 ## License
 
