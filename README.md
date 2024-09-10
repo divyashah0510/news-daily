@@ -33,9 +33,10 @@ This is a simple web application that displays news articles from a database. Th
 
 ## Screenshots
 
-![Home Page](screenshots/home.png)
-![News Page](screenshots/news.png)
-![Login Page](screenshots/login.png)
+![Home Page](./src/main/webapp/source/screens/home.png)
+![News Page](./src/main/webapp/source/screens/news.png)
+![Login Page](./src/main/webapp/source/screens/login.png)
+![Register Page](./src/main/webapp/source/screens/register.png)
 
 ## Live Demo
 
