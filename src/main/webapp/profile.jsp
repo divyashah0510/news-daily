@@ -7,7 +7,9 @@
     }
 
     String userEmail = (String) session_user.getAttribute("user");
-    String userName = (String) session_user.getAttribute("userName");
+    String userName = (String) session_user.getAttribute("name");
+    String instagramLink = (String) session_user.getAttribute("instagram_link");
+    String contactNumber = (String) session_user.getAttribute("contact_number");
 %>
 <html>
 <head>
@@ -30,29 +32,30 @@
                     <div class="card-body text-center">
                         <div class="mt-3 mb-4">
                             <img
-                                    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
+                                    src="ImageServlet?email=<%=userEmail%>"
                                     class="rounded-circle img-fluid"
-                                    style="width: 100px"
+                                    style="width: 200px"
                             />
                         </div>
                         <h4 class="mb-2"><%= userEmail %>
                         </h4>
                         <p class="text-muted mb-4">
                             @<%=userName%> <span class="mx-2">|</span>
-                            <a href="#!">yourwebsite.com</a>
+                            <a href="<%=instagramLink%>" target="_blank"><%=userName%>
+                            </a>
                         </p>
                         <div class="mb-4 pb-2">
-                            <button class="btn btn-outline-primary btn-floating">
+                            <a href="<%=instagramLink%>" class="btn btn-outline-primary btn-floating">
                                 <i class="fab fa-facebook-f fa-lg"></i>
-                            </button>
-                            <button class="btn btn-outline-primary btn-floating">
+                            </a>
+                            <a href="<%=instagramLink%>" class="btn btn-outline-primary btn-floating">
                                 <i class="fab fa-twitter fa-lg"></i>
-                            </button>
-                            <button class="btn btn-outline-primary btn-floating">
-                                <i class="fab fa-skype fa-lg"></i>
-                            </button>
+                            </a>
+                            <a href="<%=instagramLink%>" class="btn btn-outline-primary btn-floating">
+                                <i class="fab fa-instagram fa-lg"></i>
+                            </a>
                         </div>
-                        <button class="btn btn-primary btn-rounded btn-lg">Message now</button>
+                        <a href="tel:<%=contactNumber%>" class="btn btn-primary btn-rounded btn-lg">Message now</a>
                         <div class="d-flex justify-content-between text-center mt-5 mb-2">
                             <div>
                                 <p class="mb-2 h5">8471</p>
